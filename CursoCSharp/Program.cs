@@ -7,6 +7,8 @@ using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
 using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Excecoes;
+using CursoCSharp.API;
 
 namespace CursoCSharp {
     class Program {
@@ -83,8 +85,24 @@ namespace CursoCSharp {
                 // Metodos e Funções
                 {"Exemplo Lambda - Metodos & Funções", ExemploLambda.Executar},
                 {"Lambdas como Delegate - Metodos & Funções", LambdasDelegate.Executar},
+                {"Usando Delegate - Metodos & Funções", UsandoDelegate.Executar},
+                {"Delegate Função Anônima - Metodos & Funções", DelegateFuncAnonima.Executar},
+                {"Delegate como parâmetros - Metodos & Funções", DelegatesComoParametros.Executar},
+                {"Métodos de extensão - Metodos & Funções", MetodosExtensao.Executar},
 
+                // Exceções
+                {"Primeira Exceção - Exceções", PrimeiraExcecao.Executar},
+                {"Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar},
 
+                // API
+                {"Primeiro Arquivo - Usando API", PrimeiroArquivo.Executar},
+                {"Lendo Arquivos - Usando API", LendoArquivos.Executar},
+                {"Exemplo File Info - Usando API", ExemploFileInfo.Executar},
+                {"Diretórios - Usando API", Diretorios.Executar},
+                {"Exemplo DirectoryInfo- Usando API", ExemploDirectoryInfo.Executar},
+                {"Exemplo Path- Usando API", ExemploPath.Executar},
+                {"Exemplo DateTime - Usando API", ExemploDateTime.Executar},
+                {"Exemplo Timespan - Usando API", ExemploTimeSpan.Executar},
             });
 
             central.SelecionarEExecutar();

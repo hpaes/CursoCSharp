@@ -14,4 +14,8 @@
     <ProjectReference Include="..\ClassLibrary1\Encapsulamento.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="LINQ\" />
+  </ItemGroup>
+
 </Project>
