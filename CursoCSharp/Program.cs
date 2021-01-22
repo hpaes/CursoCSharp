@@ -9,6 +9,7 @@ using CursoCSharp.OO;
 using CursoCSharp.MetodosEFuncoes;
 using CursoCSharp.Excecoes;
 using CursoCSharp.API;
+using CursoCSharp.TopicosAvancados;
 
 namespace CursoCSharp {
     class Program {
@@ -103,6 +104,15 @@ namespace CursoCSharp {
                 {"Exemplo Path- Usando API", ExemploPath.Executar},
                 {"Exemplo DateTime - Usando API", ExemploDateTime.Executar},
                 {"Exemplo Timespan - Usando API", ExemploTimeSpan.Executar},
+
+                // Topicos Avançados
+                {"Exemplo LINQ1 - Tópicos Avançados", LINQ1.Executar},
+                {"Exemplo LINQ2 - Tópicos Avançados", LINQ2.Executar},
+                {"Exemplo Nullables - Tópicos Avançados", Nullables.Executar},
+                {"Exemplo Dynamic - Tópicos Avançados", Dynamic.Executar},
+                {"Exemplo Generics - Tópicos Avançados", Generics.Executar},
+
+
             });
 
             central.SelecionarEExecutar();
